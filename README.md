@@ -126,6 +126,7 @@ try x[10]:
 except:
     pass
 ``
+
 Use pass keyword over there like:
 ``
 if a>0:
@@ -357,5 +358,49 @@ Python is Call by Value or Call by Reference ?
     What is Monkey patching ? Give example ?
     What's the difference between py2.x and py3.x ?
     Give examples of Python Framework ?
-    
-    [Mind Boggling Python FAQ](https://docs.python.org/3/faq/programming.html)
+
+What is Python , Explain features of Python.
+How Python is interpreted.
+Explain dict.
+How to pass optional or keyword arguments.
+Explain indexing and slicing.
+What is lambda.
+Difference between str() and repr().
+Explain serialization and deserialization / Pickling and unpicking.
+What is list / dict compression.
+What are higher ordered functions.
+How to copy object in Python. Diff between shallow copy and deep copy.
+How to make array in python.
+How to generate random numbers.
+How to handle exceptions.
+When to use list/tuple/set.
+Disadvantageous of python.
+Diff range() and xrannge()
+What is PEP8
+What is virtualenv
+Diff between Python 2.* and 3.*
+What is decorator, usage ?
+With statement and its usage.
+What is class and what is self.
+Explain isinstance()
+What is static method, class method and instance method
+Treading in python
+What are iterators and generators
+Explain map, filter,reduce and lambda.
+Difference between new styled classed and old styled classes.
+What is diff between Python and Java
+What is context processor.
+What is exec() and eval ()
+How to pass command line argument.
+What is yield ?
+What is ord() and chr()
+What are Metaclasses.
+What is descriptor ?
+Any 10 python packages you have used.
+What is namespace in Python? namespace vs scope ?
+What is MRO ?
+== vs is ?
+mutable vs immutable
+
+
+[Mind Boggling Python FAQ](https://docs.python.org/3/faq/programming.html)
