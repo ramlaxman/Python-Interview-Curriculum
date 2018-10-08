@@ -319,12 +319,43 @@ Views
 Ans
  
 Why was the language called as Python?
+At the same time he began implementing Python, Guido van Rossum was also reading the published scripts from "Monty Python's Flying Circus" (a BBC comedy series from the seventies, in the.
 
-    nancyphilips
-    Python Interview Questions
-
-    stranger1
-
-        Sep 28th, 2007
-
-    At the same time he began implementing Python, Guido van Rossum was also reading the published scripts from "Monty Python's Flying Circus" (a BBC comedy series from the seventies, in the.
+What are Mutable and Immutable Data structures in Python ?
+What are tuples ?
+What is difference between tuple and list ? Where will you use tuple and where will you use list ?
+What is Dynamic Typing ?
+Justify this statement : Everything is object in Python ?
+Python is Call by Value or Call by Reference ?
+    How do you create a dictionary which can preserve the order of pairs?
+    Can you use mutable Data Structure as key in Dictionaries ?
+    What is the use of enumerate() in Python?
+    What are *args, **kwargs ?
+    How instance variables are different from class variables?
+    Differentiate between “*.py” file and “*.pyc” file?
+    Explain difference between Map vs Reduce Vs Filter ?
+    What are Lamda Functions ?
+    What is List comprehension ?
+    What is __init__ functions ?
+    What are Generators ?
+    What are Iterators ?
+    Can generator be used to create Iterators ? Give example
+    Can iterators be used to create generator ?
+    Differentiate between Range and Xrange ?
+    What is Method Resolution Order ?
+    Python supports Multi-Level Inheritance or Multiple Inheritance or Both ?
+    Does Python supports multi-threading ?
+    What is multi-threading? What is GIL(Global interpreter lock) issue ?
+    What are decorator ? How to create custom decorator ?
+    How memory is managed in Python ?
+    How does Python's garbage collection work?
+    What are Regular Expressions ?
+    Differentiate between append() and extend() methods ?
+    What is Web Scraping? How do you achieve it in Python?
+    Explain the use “with” statement in python?
+    What are Middlewares ?
+    What is Monkey patching ? Give example ?
+    What's the difference between py2.x and py3.x ?
+    Give examples of Python Framework ?
+    
+    [Mind Boggling Python FAQ](https://docs.python.org/3/faq/programming.html)
