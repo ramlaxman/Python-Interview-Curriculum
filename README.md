@@ -1,6 +1,26 @@
 # Python-Interview-Questions
-- Capgemini
 
+- ##### Introduction
+- ##### Data Types
+- ##### Loops
+- ##### Built in Data Structure
+- ##### List
+- ##### Tuple
+- ##### Set
+- ##### Frozenset
+- ##### Dictionary
+- ##### Ordered Dictionary
+- ##### _String_
+- ##### Function
+- ##### Inheritance
+- ##### Classes & Objects
+- ##### Exceptions
+
+
+
+
+
+- Capgemini
 #### What is a method?
 
 A method is a function on some object x that you normally call as x.name(arguments...). Methods are defined as functions inside the class definition: class C: def meth (self, arg): return arg*2 + self.attribute.
