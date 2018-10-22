@@ -17,9 +17,6 @@
 - ##### Exceptions
 
 
-
-
-
 - Capgemini
 #### What is a method?
 
@@ -70,24 +67,26 @@ To convert, e.g., the number 144 to the string '144', use the built-in function 
 
 It is not best for mobile application
 Due to interpreter its execution speed is not up to mark as compared to compiler
+
 #### How is the Implementation of Python's dictionaries done?
 
 Python dictionary needs to be declared first:
-dict = { }
+`dict = { }`
 
 Key value pair can be added as:
-dict[key] = value
+`dict[key] = value`
     or
-objDict.update({key:value})
+`objDict.update({key:value})`
 
 Remove element by:
-dict.pop(key)
+`dict.pop(key)`
 
 Remove all:
-objDict.clear()
-A hash value of the key is computed using a hash function, The hash value addresses a location in an array of "buckets" or "collision lists" which contains the (key , value) pa...
+`objDict.clear()`
+A hash value of the key is computed using a hash function, The hash value addresses a location in an array of "buckets" or "collision lists" which contains the (key , value) pair.
 
 #### What is used to create Unicode string in Python?
+
 "u" should be added before the string
 ``
 a=u"Python"
@@ -98,10 +97,12 @@ Add unicode before the string. Ex: unicode(text) resulting in text.
 #### What is the built-in function used in Python to iterate over a sequence of numbers?
 
 Syntax : range(start,end,step count)
-Ex: a = range(1,10,2)
-    print a
+Ex: 
+`a = range(1,10,2)
+    print (a)`
 
-Output: [1, 3, 5, 7, 9]
+Output: 
+`[1, 3, 5, 7, 9]`
 
 If using to iterate
 ``
@@ -138,7 +139,6 @@ Actually there is no switch statement in the Python programming language but the
 #### What is the statement that can be used in Python if a statement is required syntactically but the program requires no action?
 
 pass
-
 Code:
 ``
 try x[10]:
@@ -167,12 +167,8 @@ Most preferable way by PEP 8 is in double quotes
 
 Yes, Python Supports Regular Expressions Well.
 There is a lot of other languages that have good support to RegEx-
-    Perl
-    Awk
-    Sed
-    Java
-    etc.
- 
+Perl,Awk,Sed,Java etc.
+
 Yes python strongly support regular expression. Other languages supporting regular expressions are: Delphi, Java, Java script, .NET, Perl, Php, Posix, python, Ruby, Tcl, Visual Basic, XML schema, VB script, Visual Basic 6.
  
 #### How is memory managed in Python?
@@ -186,114 +182,26 @@ Like other programming language python also has garbage collector which will tak
 Lambdas evaluates at run time and these do not need statements
 Lambda is a anonymous function, which does not have a name and no fixed number of arguments. Represented by keyword lambda followed by statement.
 Ex:
-    sum = lambda a,b: a+b
-    sum(2,3)
-    output: 5
-    Answer Question
-      
-    Select Best Answer
-
-May 29 2015 08:23 AM
-3412
-Views
-0
-Ans
+`    sum = lambda a,b: a+b
+    sum(2,3)`
+output: 
+5
  
-Encryption with AES/CBC/PKCS5
+#### Why Python is not that much of popular, when compared to other programming languages?
 
-    radha
-    Python Interview Questions
+Python is not so useful in web environment where the user interface is the browser. Hence, lot of people are using PHP for different design goals. Google is tightly connected with python as they make ...
+     
+#### What are the advantage and dis-advantage of Phyton programming language?
 
-AES Encryption using CBC/PKCS5 padding in python while decrypting in java it is given below error
+Python is more like java and bit cumbersome, but it leads to a better design. Python is an interpreted language, high level programming, pure object-oriented, high performance server side scripting language.
+     
+#### What is the optional statement used in a try ... except statement in Python?
 
-javax.crypto.BadPaddingException: Decryption error at sun.security.rsa.RSAPadding.unpadV15(Unknown Source) at sun.security.rsa.RSAPadding.unpad(Unknown Source) at com.sun.crypto.provider.RSACipher.doFinal(RSACipher.java:363) at com.sun.crypto.provider.RSACipher.engineDoFinal(RSACipher.java:389)...
-Answer Question
-Jan 04 2009 01:41 AM
-7306
-Views
-1
-Ans
+There are 2 optional clauses used in try...except statements: 1. else clause: It is useful for code that must be executed when the try block doesn't create any exception2. finally clause:Its is useful for code that must be executed irrespective of whether an exception is generated or not.
  
-Python Popularity
+#### What is List Comprehensions feature of Python used for?
 
-    ushanamballa
-    Python Interview Questions
-
-Why Python is not that much of popular, when compared to other programming languages?
-
-    suji
-
-        Mar 2nd, 2012
-
-    Python is not so useful in web environment where the user interface is the browser. Hence, lot of people are using PHP for different design goals. Google is tightly connected with python as they make ...
-    Answer Question
-      
-    Select Best Answer
-
-Aug 02 2010 03:16 AM
-7916
-Views
-1
-Ans
- 
-Phyton Advantages and Dis-Advantages
-
-    torch_619
-    Python Interview Questions
-
-What are the advantage and dis-advantage of Phyton programming language?
-
-    suji
-
-        Mar 2nd, 2012
-
-    Python is more like java and bit cumbersome, but it leads to a better design. Python is an interpreted language, high level programming, pure object-oriented, high performance server side scripting la...
-    Answer Question
-      
-    Select Best Answer
-
-Jan 08 2007 11:23 AM
-4501
-Views
-2
-Ans
- 
-What is the optional statement used in a try ... except statement in Python?
-
-    norman
-    Python Interview Questions
-
-    Priya Patel
-
-        Oct 20th, 2007
-
-    There are 2 optional clauses used in try...except statements: 1. else clause: It is useful for code that must be executed when the try block doesn't create any exception2. finally clause:Its is useful for code that must be executed irrespective of whether an exception is generated or not.
-    xeio
-
-        Sep 25th, 2007
-
-    Try ... except (...) ... [finally]
-    Answer Question
-      
-    Select Best Answer
-
-Jan 08 2007 11:18 AM
-4134
-Views
-1
-Ans
- 
-What is List Comprehensions feature of Python used for?
-
-    SachinDeo
-    Python Interview Questions
-
-    Priya Patel
-
-        Oct 19th, 2007
-
-    List comprehensions help to create and manage lists in a simpler and
-    clearer way than using map(), filter() and lambda. Each list comprehension
+List comprehensions help to create and manage lists in a simpler and clearer way than using map(), filter() and lambda. Each list comprehension
     consists of an expression followed by a for clause, then zero or more for or
     if clauses.
     Answer Question
