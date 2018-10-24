@@ -10,12 +10,11 @@
 - ##### Frozenset
 - ##### Dictionary
 - ##### Ordered Dictionary
-- ##### _String_
+- ##### String
 - ##### Function
 - ##### Inheritance
 - ##### Classes & Objects
 - ##### Exceptions
-
 
 - Capgemini
 #### What is a method?
