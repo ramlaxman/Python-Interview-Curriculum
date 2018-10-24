@@ -37,7 +37,22 @@ You could define an alias for the base class, assign the real base class to it b
 
 #### How do I find the current module name?
 
-A module can find out its own module name by looking at the predefined global variable __name__. If this has the value '__main__', the program is running as a script. Many modules that are usually used by importing them also provide a command-line interface or a self-test, and only execute this code after checking __name__: def main(): print 'Running test...' ... if __name__ == '__main__': main() __import__('x.y.z') returns Try: __import__('x.y.z').y.z For more realistic situations, you may have to do something like m = __import__(s) for i in s.split(".")[1:]: m = getattr(m, i) 
+A module can find out its own module name by looking at the predefined global variable __name__. 
+If this has the value '__main__', the program is running as a script. 
+Many modules that are usually used by importing them also provide a command-line interface or a self-test, and only execute this code after checking __name__: 
+```python
+def main(): 
+	print 'Running test...' 
+if __name__ == '__main__': 
+	main() 
+	
+__import__('x.y.z') 
+returns Try: __import__('x.y.z').y.z 
+
+# For more realistic situations, you may have to do something like:
+m = __import__(s) 
+	for i in s.split(".")[1:]: m = getattr(m, i) 
+```
 
 #### How do I copy a file?
 
@@ -45,7 +60,8 @@ The shutil module contains a copyfile() function.
 
 #### How do I access a module written in Python from C?
 
-You can get a pointer to the module object as follows: module = PyImport_ImportModule(""); If the module hasn't been imported yet (i.e. it is not yet present in sys.modules), this initializes the module; otherwise it simply returns the value of sys.modules[""]. Note that it doesn't enter the module into any namespace -- it only ensures it has been initialized and is stored in sys.modules. You can then access the module's attributes (i.e. any name defined in the module) as follows: attr = PyObject_GetAttrString(module, ""); Calling PyObject_SetAttrString() to assign to variables in the module also works.
+You can get a pointer to the module object as follows: module = PyImport_ImportModule(""); If the module hasn't been imported yet (i.e. it is not yet present in sys.modules), this initializes the module; otherwise it simply returns the value of ``sys.modules[""]``. Note that it doesn't enter the module into any namespace -- it only ensures it has been initialized 
+and is stored in sys.modules. You can then access the module's attributes (i.e. any name defined in the module) as follows: attr = PyObject_GetAttrString(module, ""); Calling PyObject_SetAttrString() to assign to variables in the module also works.
 
 #### How do I interface to C++ objects from Python?
 
@@ -53,7 +69,13 @@ Depending on your requirements, there are many approaches. To do this manually, 
 
 #### How can I pass optional or keyword parameters from one function to another?
 
-Collect the arguments using the * and ** specifier in the function's parameter list; this gives you the positional arguments as a tuple and the keyword arguments as a dictionary. You can then pass these arguments when calling another function by using * and **: def f(x, *tup, **kwargs): ... kwargs['width']='14.3c' ... g(x, *tup, **kwargs) In the unlikely case that you care about Python versions older than 2.0, use 'apply': def f(x, *tup, **kwargs): ... kwargs['width']='14.3c' ... apply(g, (x,)+tup, kwargs)
+Collect the arguments using the * and ** specifier in the function's parameter list; this gives you the positional arguments as a tuple and the keyword arguments as a dictionary. You can then pass these arguments when calling another function by using ``*`` and ``**``: 
+```
+def f(x, *tup, **kwargs): 
+	kwargs['width']='14.3c' 
+	g(x, *tup, **kwargs) 
+```
+In the unlikely case that you care about Python versions older than 2.0, use 'apply': def f(x, *tup, **kwargs): ... kwargs['width']='14.3c' ... apply(g, (x,)+tup, kwargs)
 
 #### How do you make a higher order function in Python?
 
@@ -65,8 +87,7 @@ To convert, e.g., the number 144 to the string '144', use the built-in function 
 
 #### What are the disadvantages of the Python programming language?
 
-It is not best for mobile application
-Due to interpreter its execution speed is not up to mark as compared to compiler
+It is not best for mobile application. Due to interpreter its execution speed is not up to mark as compared to compiler.
 
 #### How is the Implementation of Python's dictionaries done?
 
