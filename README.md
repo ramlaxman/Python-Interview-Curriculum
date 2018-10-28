@@ -38,7 +38,7 @@ You could define an alias for the base class, assign the real base class to it b
 
 A module can find out its own module name by looking at the predefined global variable __name__. 
 If this has the value '__main__', the program is running as a script. 
-Many modules that are usually used by importing them also provide a command-line interface or a self-test, and only execute this code after checking __name__: 
+Many modules that are usually used by importing them also provide a command-line interface or a self-test, and only execute this code after checking `__name__``: 
 ```python
 def main(): 
 	print 'Running test...' 
