@@ -4,12 +4,12 @@
 - ##### Data Types
 - ##### Loops
 - ##### Built in Data Structure
-- ##### List
-- ##### Tuple
-- ##### Set
-- ##### Frozenset
-- ##### Dictionary
-- ##### Ordered Dictionary
+  - ##### List
+  - ##### Tuple
+  - ##### Sets
+  - ##### Frozenset
+  - ##### Dictionary
+  - ##### Ordered Dictionary
 - ##### String
 - ##### Function
 - ##### Inheritance
