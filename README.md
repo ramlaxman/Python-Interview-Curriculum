@@ -3,6 +3,7 @@
 - ##### Introduction
 - ##### Data Types
 - ##### Loops
+- ##### Functions
 - ##### Built in Data Structure
   - ##### List
   - ##### Tuple
@@ -10,8 +11,7 @@
   - ##### Frozenset
   - ##### Dictionary
   - ##### Ordered Dictionary
-- ##### String
-- ##### Function
+  - ##### String
 - ##### Inheritance
 - ##### Classes & Objects
 - ##### Exceptions
