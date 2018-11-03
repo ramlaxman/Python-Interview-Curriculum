@@ -4,6 +4,18 @@
 - ##### Data Types
 - ##### Loops
 - ##### Functions
+  - ##### Virtual Functions
+  - ##### Friend Functions
+  - ##### Static Functions
+- ##### Classes & Objects
+- ##### Encapsulation
+- ##### Polymorphism
+- ##### Pointers
+- ##### Structures
+- ##### Union
+- ##### 
+- ##### Inheritance
+- ##### Exceptions
 - ##### Built in Data Structure
   - ##### List
   - ##### Tuple
@@ -12,9 +24,7 @@
   - ##### Dictionary
   - ##### Ordered Dictionary
   - ##### String
-- ##### Inheritance
-- ##### Classes & Objects
-- ##### Exceptions
+
 
 - Capgemini
 #### What is a method?
