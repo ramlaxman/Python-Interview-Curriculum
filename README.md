@@ -8,14 +8,6 @@
   - ##### Friend Functions
   - ##### Static Functions
 - ##### Classes & Objects
-- ##### Encapsulation
-- ##### Polymorphism
-- ##### Pointers
-- ##### Structures
-- ##### Union
-- ##### 
-- ##### Inheritance
-- ##### Exceptions
 - ##### Built in Data Structure
   - ##### List
   - ##### Tuple
@@ -24,6 +16,22 @@
   - ##### Dictionary
   - ##### Ordered Dictionary
   - ##### String
+- ##### Encapsulation
+- ##### Polymorphism
+- ##### Pointers
+  - ##### Calloc
+  - ##### Malloc
+  - ##### Call by reference
+  - ##### Call by value
+- ##### Structures
+- ##### Union
+- ##### Inheritance
+- ##### Exceptions
+- ##### File Handling
+- ##### Bitwise Operaters
+- ##### Standard Library
+	
+
 
 
 - Capgemini
