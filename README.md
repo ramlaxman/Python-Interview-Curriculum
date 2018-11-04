@@ -84,7 +84,12 @@ def f(x, *tup, **kwargs):
 	kwargs['width']='14.3c' 
 	g(x, *tup, **kwargs) 
 ```
-In the unlikely case that you care about Python versions older than 2.0, use 'apply': def f(x, *tup, **kwargs): ... kwargs['width']='14.3c' ... apply(g, (x,)+tup, kwargs)
+In the unlikely case that you care about Python versions older than 2.0, use 'apply': 
+```python
+def f(x, *tup, **kwargs): 
+   kwargs['width']='14.3c' 
+   apply(g, (x,)+tup, kwargs)
+```
 
 #### How do you make a higher order function in Python?
 
