@@ -1,39 +1,134 @@
 # Python-Interview-Questions
 
-- ##### Introduction
-- ##### Data Types
-- ##### Loops
-- ##### Functions
-  - ##### Virtual Functions
-  - ##### Friend Functions
-  - ##### Static Functions
-- ##### Classes & Objects
-- ##### Built in Data Structure
-  - ##### List
-  - ##### Tuple
-  - ##### Sets
-  - ##### Frozenset
-  - ##### Dictionary
-  - ##### Ordered Dictionary
-  - ##### String
-- ##### Encapsulation
-- ##### Polymorphism
-- ##### Pointers
-  - ##### Calloc
-  - ##### Malloc
-  - ##### Call by reference
-  - ##### Call by value
-- ##### Structures
-- ##### Union
-- ##### Inheritance
-- ##### Exceptions
-- ##### File Handling
-- ##### Bitwise Operaters
-- ##### Standard Library
+- ### Introduction
+  - #### Print 
+  - #### Return 
+  - #### Yield
+
+- ### Data Types
+  - #### Number
+    - ##### Int
+    - ##### Float
+    - ##### Complex
+    - ##### Boolean
+  - #### Built in Data Structures
+    - ##### String
+    - ##### List
+    - ##### Tuple
+    - ##### Sets
+    - ##### Frozenset 
+    - ##### Dictionary
+    - ##### Ordered Dictionary
+    - ##### File
+- ### Loops
+  - #### if 
+  - #### if else
+  - #### for
+  - #### while
+- ### Classes
+  - #### Storage class
+  - #### Constructor and Destructor
+  - #### Compostion: objects as members of class
+  - #### Static class member
+
+- ### Functions
+  - #### Virtual Function
+  - #### Friend Function
+  - #### Static Function
+  - #### Dynamic Function
+  - #### Nested Function
+  - #### Inline Function
+  - #### Member Function
+  - #### Overloading
+  - #### Overriding
+  - #### Call Stack & activation records
+  - #### Empty parameters lists
+  - #### reference parameters
+  - #### Instantiation
+  - #### Reuse
+  - #### Messages and Method Calls  
+  - #### Attributes and Instance Variables
+  - #### Encapsulation and Information Hiding
+  - #### Interfaces 
+  - #### static Methods, static Fields and Class Math
+  - #### Methods with Multiple Parameters
+  - #### Notes on Declaring and Using Methods
+  - #### Argument Promotion and Casting
+  - #### Constructor and Destructors
+  - #### Abstract Classes and Methods
+  - #### Stream
+  - #### Generic Methods and Classes
+  - #### Static Local Arrays and Automatic Local Arrays
+  - #### Passing Arrays to Functions
+  - #### Sorting Arrays
+  - #### variable length arrays
+  - #### Static vs Dynamic Memory Allocation
+  - #### Monekey patching
+  - #### Data types as Objects
+  - #### Iterators, Comprehension and Generators
+  - #### Split
+  - #### Join
+  - #### Map
+  - #### Reduce
+  - #### zip
+  - #### unzip
+  - #### filter
+  - #### lambda
+  - #### Factory
+  - #### Overloading
+  - #### Overriding
+  - #### Call Stack & activation records
+  - #### Empty parameters lists
+  - #### Inline
+  - #### reference parameters
+
+The Case of the Missing Declaration Statements
+Variables, Objects, and References 
+Types Live with Objects, Not Variables
+Objects Are Garbage-Collected
+Shared References 
+Shared References and In-Place Changes
+Shared References and Equality
+Dynamic Typing Is Everywhere
+
+- ### Classes & Objects
+  - #### Storage class
+  - #### constructor and destructor
+  - #### Compostion: objects as members of class
+  - #### static class member
+- ### Encapsulation
+- ### Polymorphism
+- ### Pointers
+  - #### NULL Pointer
+  - #### Dangling Pointer
+  - #### Generic Pointers
+  - #### Wild Pointer
+  - #### Complex Pointers
+  - #### Near Pointer
+  - #### Far Pointer
+  - #### Huge Pointers
+  - #### String pointer
+  - #### Calloc
+  - #### Malloc
+  - #### Call by reference
+  - #### Call by value
+  
+- ### Structures
+- ### Union
+- ### Inheritance
+- ### Exceptions
+- ### File Handling
+- ### Bitwise Operaters
+- ### Standard Library
+  - #### os
+  - #### sys
+  - #### re
+  - #### copy
+  - #### collections
+- ### Concurrent & Multicore Programming
+- ### Multithreaded Programming
+
 	
-
-
-
 - Capgemini
 #### What is a method?
 
