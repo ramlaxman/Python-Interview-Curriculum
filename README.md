@@ -1,87 +1,114 @@
 # Python-Interview-Questions
 
-- ### Introduction
-  - #### Print 
-  - #### Return 
-  - #### Yield
+- ## Introduction
+  - ### Print 
 
-- ### Data Types
-  - #### Number
-    - ##### Int
-    - ##### Float
-    - ##### Complex
-    - ##### Boolean
-  - #### Built in Data Structures
-    - ##### String
-    - ##### List
-    - ##### Tuple
-    - ##### Sets
-    - ##### Frozenset 
-    - ##### Dictionary
-    - ##### Ordered Dictionary
-    - ##### File
-- ### Loops
-  - #### if 
-  - #### if else
-  - #### for
-  - #### while
-- ### Classes
-  - #### Storage class
-  - #### Constructor and Destructor
-  - #### Compostion: objects as members of class
-  - #### Static class member
+- ## Data Types
+  - ### Number
+    - #### Int
+    - #### Float
+    - #### Complex
+    - #### Boolean
+  - ### Built in Data Structures
+    - #### String
+    - #### List
+      - ##### Change, Add, remove
+      - ##### organize
+    - #### Tuple
+    - #### Sets
+    - #### Frozenset 
+    - #### Dictionary
+    - #### Ordered Dictionary
+      - ##### A List of Dictionaries
+      - ##### A List in a Dictionary
+      - ##### A Dictionary in a Dictionary
+    - #### File
+- ## Loops
+  - ### if 
+  - ### if else
+  - ### for
+  - ### while
 
-- ### Functions
-  - #### Virtual Function
-  - #### Friend Function
-  - #### Static Function
-  - #### Dynamic Function
-  - #### Nested Function
-  - #### Inline Function
-  - #### Member Function
-  - #### Overloading
-  - #### Overriding
-  - #### Call Stack & activation records
-  - #### Empty parameters lists
-  - #### reference parameters
-  - #### Instantiation
-  - #### Reuse
-  - #### Messages and Method Calls  
-  - #### Attributes and Instance Variables
-  - #### Encapsulation and Information Hiding
-  - #### Interfaces 
-  - #### static Methods, static Fields and Class Math
-  - #### Methods with Multiple Parameters
-  - #### Notes on Declaring and Using Methods
-  - #### Argument Promotion and Casting
-  - #### Constructor and Destructors
-  - #### Abstract Classes and Methods
-  - #### Stream
-  - #### Generic Methods and Classes
-  - #### Static Local Arrays and Automatic Local Arrays
-  - #### Passing Arrays to Functions
-  - #### Sorting Arrays
-  - #### variable length arrays
-  - #### Static vs Dynamic Memory Allocation
-  - #### Monekey patching
-  - #### Data types as Objects
-  - #### Iterators, Comprehension and Generators
-  - #### Split
-  - #### Join
-  - #### Map
-  - #### Reduce
-  - #### zip
-  - #### unzip
-  - #### filter
-  - #### lambda
-  - #### Factory
-  - #### Overloading
-  - #### Overriding
-  - #### Call Stack & activation records
-  - #### Empty parameters lists
-  - #### Inline
-  - #### reference parameters
-
+- ## Functions
+  - ### Defining a Function [Python Crash Course]
+  - ### Passing Information to a Function
+  - ### Arguments and Parameters
+  - ### Return 
+  - ### Yield
+  - ### Pass
+  - ### Passing Arguments 
+  - ### Positional Arguments 
+  - ### Keyword Arguments 
+  - ### Default Values
+  - ### Equivalent Function Calls
+  - ### Avoiding Argument Errors 
+  - ### Return Values 
+  - ### Returning a Simple Value 
+  - ### Making an Argument Optional 
+  - ### Returning a Dictionary 
+  - ### Using a Function with a while Loop 
+  - ### Passing a List 
+  - ### Modifying a List in a Function 
+  - ### Preventing a Function from Modifying a List 
+  - ### Passing an Arbitrary Number of Arguments 
+  - ### Mixing Positional and Arbitrary Arguments 
+  - ### Using Arbitrary Keyword Arguments 
+  - ### Storing Your Functions in Modules 
+  - ### Importing an Entire Module 
+  - ### Importing Specific Functions 
+  - ### Using as to Give a Function an Alias 
+  - ### Using as to Give a Module an Alias 
+  - ### Importing All Functions in a Module 
+  - ### Styling Functions
+  - ### Virtual Function
+  - ### Friend Function
+  - ### Static Function
+  - ### Dynamic Function
+  - ### Nested Function
+  - ### Inline Function
+  - ### Member Function
+  - ### Inner Function
+  - ### Overloading
+  - ### Overriding
+  - ### Call Stack & activation records
+  - ### Empty parameters lists
+  - ### Reference parameters
+  - ### Instantiation
+  - ### Reuse
+  - ### Messages and Method Calls  
+  - ### Attributes and Instance Variables
+  - ### Encapsulation and Information Hiding
+  - ### Interfaces 
+  - ### Static Methods, static Fields and Class Math
+  - ### Methods with Multiple Parameters
+  - ### Notes on Declaring and Using Methods
+  - ### Argument Promotion and Casting
+  - ### Constructor and Destructors
+  - ### Stream Class
+  - ### Generic Methods and Classes
+  - ### Static Local Arrays and Automatic Local Arrays
+  - ### Passing Arrays to Functions
+  - ### Sorting Arrays
+  - ### Variable length arrays
+  - ### Static vs Dynamic Memory Allocation
+  - ### Monekey patching
+  - ### Data types as Objects
+  - ### Iterators, Comprehension and Generators
+  - ### Split
+  - ### Join
+  - ### Map
+  - ### Reduce
+  - ### Zip
+  - ### unpack
+  - ### filter
+  - ### lambda
+  - ### Factory
+  - ### Overloading
+  - ### Overriding
+  - ### Call Stack & activation records
+  - ### Empty parameters lists
+  - ### reference parameters
+  
 The Case of the Missing Declaration Statements
 Variables, Objects, and References 
 Types Live with Objects, Not Variables
@@ -91,44 +118,60 @@ Shared References and In-Place Changes
 Shared References and Equality
 Dynamic Typing Is Everywhere
 
-- ### Classes & Objects
-  - #### Storage class
-  - #### constructor and destructor
-  - #### Compostion: objects as members of class
-  - #### static class member
-- ### Encapsulation
-- ### Polymorphism
-- ### Pointers
-  - #### NULL Pointer
-  - #### Dangling Pointer
-  - #### Generic Pointers
-  - #### Wild Pointer
-  - #### Complex Pointers
-  - #### Near Pointer
-  - #### Far Pointer
-  - #### Huge Pointers
-  - #### String pointer
-  - #### Calloc
-  - #### Malloc
-  - #### Call by reference
-  - #### Call by value
+- ## Classes & Objects
+  - ### Storage class
+  - ### constructor and destructor
+  - ### Compostion: objects as members of class
+  - ### Static class member
+  - ### Dynamic class member
+  - ### Get Help from Your Parent with super 
+  - ### In self Defense 
+  - ### Get and Set Attribute Values with Properties 
+  - ### Name Mangling for Privacy 
+  - ### Method Types 
+  - ### Duck Typing 
+  - ### Special Methods 
+  - ### Composition 
+  - ### When to Use Classes and Objects versus Modules
+  - ### Named Tuples
   
-- ### Structures
-- ### Union
-- ### Inheritance
-- ### Exceptions
-- ### File Handling
-- ### Bitwise Operaters
-- ### Standard Library
-  - #### os
-  - #### sys
-  - #### re
-  - #### copy
-  - #### collections
-- ### Concurrent & Multicore Programming
-- ### Multithreaded Programming
+- ## Encapsulation & Data Hiding
+- ## Polymorphism
+  - ### Abstract Classes and Methods
+- ## Pointers
+  - ### NULL Pointer
+  - ### Dangling Pointer
+  - ### Generic Pointer
+  - ### Wild Pointer
+  - ### Complex Pointer
+  - ### Near Pointer
+  - ### Far Pointer
+  - ### Huge Pointer
+  - ### String Pointer
+  - ### Calloc
+  - ### Malloc
+  - ### Call by reference
+  - ### Call by value
+- ## Structures
+- ## Union
+- ## Inheritance
+  - ### Single
+  - ### Multilevel
+  - ### Multiple
+  - ### Hybrid
+- ## Exceptions
+- ## Standard Library
+  - ### os
+  - ### sys
+  - ### re
+  - ### copy
+  - ### collections
+- ## Concurrent & Multicore Programming
+- ## Multithreaded Programming
+- ## File Handling
+- ## Bitwise Operaters
 
-	
+
 - Capgemini
 #### What is a method?
 
