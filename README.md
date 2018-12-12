@@ -380,6 +380,23 @@ Python is more like java and bit cumbersome, but it leads to a better design. Py
 
 There are 2 optional clauses used in try...except statements: 1. else clause: It is useful for code that must be executed when the try block doesn't create any exception2. finally clause:Its is useful for code that must be executed irrespective of whether an exception is generated or not.
  
+
+#### Is it possible to assign multiple var to values in list?
+A: The multiple assignment trick is a shortcut that lets you assign multiple variables with the values in a list in one line of code. So instead of doing this:
+```
+>>> cat = ['fat', 'orange', 'loud']
+>>> size = cat[0]
+>>> color = cat[1]
+>>> disposition = cat[2] 
+```
+
+Do this:
+```
+cat = ['fat', 'orange', 'loud']
+size, color, disposition = cat
+```
+
+
 #### What is List Comprehensions feature of Python used for?
 
 List comprehensions help to create and manage lists in a simpler and clearer way than using map(), filter() and lambda. Each list comprehension
