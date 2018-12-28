@@ -173,6 +173,73 @@ Dynamic Typing Is Everywhere
 
 
 - Capgemini
+1. What will be the output of the code below in Python 2? Explain your answer.
+
+def div1(x,y):
+
+print "%s/%s = %s" % (x, y, x/y)
+
+def div2(x,y):
+
+print "%s//%s = %s" % (x, y, x//y)
+
+div1(5,2)
+
+div1(5.,2)
+
+div2(5,2)
+
+div2(5.,2.)
+
+Also, how would the answer differ in Python 3 (assuming, of course, that the above [print] statements were converted to Python 3 syntax)?
+
+2. What are the key differences between Python 2 and 3?
+
+3. What are some alternative implementations to CPython? When and why might you use them?
+
+4. How does Python's garbage collection work?
+
+5. What is the difference between range and xrange? How has this changed over time?
+
+6. Here's a function (Provide a function). Optimize it for me.
+
+7. What will be the output of the code below?
+
+List = [‘a’, ‘b’, ‘c’, ‘d’, ‘e’]
+
+print list [10:]
+
+8. How does the GIL impact concurrency in Python? What kinds of applications does it impact more than others?
+
+9. How do you iterate over a list and pull element indices at the same time?
+
+10. How do you enforce ordering for a dictionary-style object?
+
+11. How many ways can you append or concatenate strings? Which of these ways is fastest? Easiest to read?
+
+12. What is PYTHONSTARTUP and how is it used?
+
+13. Write a code for downloading a CSV in Python2 and Python3. (Provide a link to CSV file)
+
+14. I'm getting a maximum recursion depth error for a function. What does this mean? How can I mitigate the problem?
+
+15. Here's a class hierarchy with some methods defined. When I call this function, what gets printed?
+
+Apart from these technical questions, ask these following general questions to find out more about candidates Python skills
+
+16. What’s your favorite standard library module?
+
+17. Tell me something you don't like about Python.
+
+18. What was the most interesting project you have participated in? Can you describe it and tell why you consider it to be so interesting?
+
+19. Do you like to participate in the analysis, design and deployment phases of a project or do you prefer to concentrate on the pure development of well-described task? Why?
+
+20. I have noticed you listed Skill X on your CV. What’s your opinion about it?
+
+21. Do you remember any programming project decision you made that was a failure? Why do you think it was a mistake? Why did it happen? What did you learn from this experience?
+
+
 #### What is a method?
 
 A method is a function on some object x that you normally call as x.name(arguments...). Methods are defined as functions inside the class definition: class C: def meth (self, arg): return arg*2 + self.attribute.
