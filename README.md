@@ -172,3 +172,8 @@
 - ## Framework Bases:
   - ### Django
   - ### Flask
+
+- ## Books
+  - ### [Machine Learning](https://github.com/ramlaxman/Python-Interview-Questions/blob/master/Books-to-read.md#machine-learning)
+  - ### [Deep Learning](https://github.com/ramlaxman/Python-Interview-Questions/blob/master/Books-to-read.md#deep-learning)
+ 
