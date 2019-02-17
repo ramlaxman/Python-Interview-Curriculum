@@ -23,9 +23,10 @@
       - ##### A List in a Dictionary
       - ##### A Dictionary in a Dictionary
     - #### File
-- ## Loops
+- Condition Check:
   - ### if 
   - ### if else
+- ## Loops
   - ### for
   - ### while
 
