@@ -1,7 +1,6 @@
 #### GS Lab
-  - How will you sort result of student whose marks are unknown to 
-    you based on their roll numbers?
-   Using bubble sort.
+  - How will you sort result of student whose marks are unknown to you based on their roll numbers? 
+  Using bubble sort.
 
 #### Webonise labs
   
@@ -413,6 +412,7 @@
         - AWS::Lambda::Function is the Cloudformation syntax to define a Lambda function.
         - AWS::Serverless::Function is the AWS SAM syntax to define a Lambda function which internally creates a Lambda function in Cloudformation (AWS::Lambda::Function) and related resources by convention when executing AWS SAM.
     - How will you create security groups in AWS?
+
     - How to create key pairs?
 
 ---
@@ -505,7 +505,6 @@
             - numpy
             - pandas
             - scipy
-    - Using REST API, fetch image as requested by user.
 ---
 ### Afour
 - Python
@@ -548,13 +547,58 @@
 
         *Method 2*:
         one liner
+    
+    
+Q.26. How would you display a file’s contents in reversed order?
+
+Let’s first get to the Desktop. We use the chdir() function/method form the os module for this.
+
+     import os
+     os.chdir('C:\\Users\\lifei\\Desktop')
+
+The file we’ll use for this is Today.txt, and it has the following contents:
+
+OS, DBMS, DS, ADA
+
+HTML, CSS, jQuery, JavaScript
+
+Python, C++, Java
+
+This sem’s subjects
+
+Debugger
+
+itertools
+
+container
+
+Let’s read the contents into a list, and then call reversed() on it:
+    for line in reversed(list(open('Today.txt')))
+       print(line.rstrip())
+
+container
+
+itertools
+
+Debugger
+
+This sem’s subjects
+
+Python, C++, Java
+
+HTML, CSS, jQuery, JavaScript
+
+OS, DBMS, DS, ADA
+
+Without the rstrip(), we would get blank lines between the output.
         
-    - What is use of serialization?
-    - 
+- What is use of serialization?     
+
         
 - Openstack
     - What are storage types?
         Block, Object, File, Tape.
+
 ---
 ### Accion Labs
 - AWS
