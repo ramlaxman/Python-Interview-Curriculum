@@ -9,7 +9,7 @@
     - #### Float
     - #### Complex
     - #### Boolean
-  - ### Built in Data Structures
+  - ### Built in Data Structures / Sequences
     - #### String
     - #### List
       - ##### Change, Add, remove
