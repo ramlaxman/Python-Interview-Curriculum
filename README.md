@@ -4,7 +4,7 @@
   - ### Print 
 
 - ## Data Types
-  - ### Primitive Data Structures
+  - ### Primitive Data Types
     - #### Int
     - #### Float
     - #### Complex
