@@ -10,7 +10,7 @@
 ## Machine Learning
   - ### Introduction to Machine Learning with Python, Oreilly
   - ### Machine Learning with Python Cookbook, Oreilly
-  - ### Hands on Machine Learning with Scikit-Learn and Tensorflow, Oreilly
+  - ### Hands on Machine Learning with Scikit-Learn and Tensorflow
   
 ## Deep Learning
   - ### Deep Learning with Python, Manning
