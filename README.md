@@ -1,7 +1,7 @@
 # Python-Interview-Questions
 
 - ## Introduction
-  - ### What's New
+  - ### [What's New](https://docs.python.org/3/whatsnew/)
   - ### Print 
 
 - ## Data Types
@@ -27,7 +27,8 @@
 
 - ## Condition Check
   - ### if 
-  - ### if else
+  - ### if elif
+  - ### if elif else
 
 - ## Loops
   - ### for
@@ -62,8 +63,7 @@
   - ### Importing Specific Functions 
   - ### Using as to Give a Function an Alias 
   - ### Using as to Give a Module an Alias 
-  - ### Importing All Functions in a Module 
-  - ### Styling Functions
+  - ### Importing All Functions in a Module
   - ### Virtual Function
   - ### Friend Function
   - ### Static Function
