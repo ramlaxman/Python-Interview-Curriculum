@@ -1,5 +1,7 @@
 # Python-Interview-Questions
 
+I am aware that python interviews are not as simple as other OOP interviews like C++, Java etc. The reason for python is there are many answers for single question. I have created this repo in view to help people from college students to software architects to help with their interviews. Soon, I will update links that will help you crack interview like bad-a**.
+
 - ## Introduction
   - ### [What's New](https://docs.python.org/3/whatsnew/)
   - ### Print 
