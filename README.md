@@ -3,7 +3,7 @@
 - Generally, Python Interviews are not as simple as other OOP interviews like C++, Java. 
 - Reason is polymorphic nature of Python Solutions. It means there are many answers to single question. 
 - Other problem I came across scope of Python Language. It varies from Person to Person. 
-- I have created this repository to help college students and software professional as well with their interviews. 
+- I have created this repository to help college students and software professionals as well with their interviews. 
 
 
 - ## Introduction
