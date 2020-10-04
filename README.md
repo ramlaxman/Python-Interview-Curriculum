@@ -5,7 +5,6 @@
 - Other problem I came across scope of Python Language. It varies from Person to Person. 
 - I have created this repository to help college students and software professionals as well with their interviews. 
 
-
 - ## Introduction
   - ### [What's New](https://docs.python.org/3/whatsnew/)
   - ### Print
