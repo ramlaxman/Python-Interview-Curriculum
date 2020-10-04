@@ -4,7 +4,6 @@
 - Reason is polymorphic nature of Python Solutions. It means there are many answers to single question. 
 - Other problem I came across scope of Python Language. It varies from Person to Person. 
 - I have created this repository to help college students and software professional as well with their interviews. 
-- If you have enjoyed this work, don't forget to:  [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/ram.nath241089@gmail.com)
 
 - ## Introduction
   - ### [What's New](https://docs.python.org/3/whatsnew/)
