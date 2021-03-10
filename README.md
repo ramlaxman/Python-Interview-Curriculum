@@ -1,4 +1,6 @@
-# Python-Interview-Questions
+# Python-Interview-Curriculum
+
+Note: I've renamed this repo to Python Interview Curriculum from Python Interview Questions.
 
 - Generally, Python Interviews are not as simple as other OOP interviews like C++, Java. 
 - Reason is polymorphic nature of Python Solutions. It means there are many answers to single question. 
